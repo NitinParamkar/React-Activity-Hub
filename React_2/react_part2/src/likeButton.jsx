@@ -11,7 +11,7 @@ export default function likebutton(){
         <div>
             <p>Clicks = {clicks}</p>
             <p onClick = {toggleLike}>{
-             isLiked? <i style = {likeStyle} class="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
+               isLiked? <i style = {likeStyle} class="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
              }
             </p>
         </div>
